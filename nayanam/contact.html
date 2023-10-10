@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="headbar.css" type="text/css" rel ="stylesheet" />
+<style>
+    .content-container{
+    background-color:rgb(245, 237, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center the content horizontally */
+    height: 55vh; /* Use 10vh for full viewport height */
+    margin: 0;
+    flex-direction: column;
+    margin-bottom: 50px; 
+  }
+
+  .content-container {
+      }
+
+/* CSS FOR CONTACT DETAIL*/  
+
+  .link-icon,.link,.location,.form {
+    display: flex;
+    align-items: center; /* Ensure div blocks start on different lines */
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 10px; /* Add some spacing between the two divs */
+    color: black;
+  }
+
+  .phone, .mail,.direction,.appointment{
+    width: 24px; /* Adjust the icon size as needed */
+    height: 24px;
+    margin-right: 4px; /* Add some spacing between icon and text */
+  }
+
+/* CSS FOR HEADBAR*/
+
+   .nayan{
+     width: 80px; 
+     height: 80px;
+     margin-right: 10px;
+   }
+   .ph{
+      width: 60px; 
+     height: 60px;
+     margin-left: 40px;
+  }
+  .fixed-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+     /* Ensure div blocks start on different lines */
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  .about{
+    font-family: Avenir;
+    font-weight: normal;
+    font-style: bold;
+    color: rgb(3, 67, 102)
+</style>
+</head>
+<body>
+
+<!--CONTACT-->
+
+<div class="content-container">
+  <div class="link-icon">
+    <img src="ph.jpg" alt="call us at" class="phone">
+    <a href="tel:+916281387994" style="color: black; text-decoration: none;">62813 87994
+</a>
+  </div>
+
+  <div class="link">
+    <img src="mail.jpg" alt="mail us at" class="mail">
+    <a href="mailto:nayanameyecare@gmail.com" style="color: black; text-decoration: none;">nayanameyecare@gmail.com</a>
+  </div>
+   <div class="location">
+    <img src="location.jpg" alt="direction" class="direction">
+    <a href="https://maps.app.goo.gl/qCEcJySuUvsj5gnb6" style="color: black; text-decoration: none;">Direction</a>
+  </div>
+   <div class="form">
+    <img src="app.jpg" alt="Book an appointment at" class="appointment">
+    <a href="appointment.html"style="color: black; text-decoration: none;">Appointment</a>
+  </div>
+
+</div>
+<!--HEAD BAR-->
+
+  <div class="fixed-section">
+    <div class="logo">
+      <img src="logo.jpg" class="nayan" >
+    </div>
+    <h1> NAYANAM </h1><br />
+   <p class="tagline"> Complete Eyecare and Diabetic Centre </p>
+  <div class="icon">
+    <a href="tel:+916281387994" style="color: black; text-decoration: none;">
+    <img src="phone.jpg" alt="call us at" class="ph">
+  </a>
+ </div>  
+  <div class="book">
+     <a href="appointment.html" style="color: white; text-decoration: none;" >
+     <p>Book an appointment</p> </a>
+  </div>
+</div>
+  <div class="content">
+     <h2 class="about"> Why choose Nayanam - Complete Eyecare and Diabetic Center?</h2 >
+     <p class="con"> Nayanam - Complete Eyecare and Diabetic Center was founded with the idea "Enhancing Vision - Empowering lives" </p>
+ 
+ </div>
+</body>
+</html>

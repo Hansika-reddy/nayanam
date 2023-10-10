@@ -1,0 +1,32 @@
+h1{
+   align-items: center;
+ color : rgb(37,47,116);
+}
+ .tagline {
+   margin-top: 3.5em;
+   margin-left: -5em;
+   position: relative;
+  display: flex;
+  align-items: flex-end;
+   font-style: italic;
+   color: rgb(237, 26, 7)
+  }
+.book{
+    margin-top: 10px;
+    background-color: rgb(37,47,116);
+    color: white;
+    padding:3px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-left: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+
+<!-- Content styles -->
+
